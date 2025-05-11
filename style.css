@@ -6,8 +6,17 @@ body {
   color: #fff;
 }
 
+.All_content {
+  font-family: sans-serif;
+  background: #0e0e0e;
+  color: #fff;
+  display: flex;
+}
+
 .menu-container {
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .menu-btn {
@@ -61,4 +70,9 @@ body {
 
 .sidebar.open {
   left: 0;
+}
+
+.right_bar_continer {
+    display: flex;
+    position: fixed;
 }
