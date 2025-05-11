@@ -1,1 +1,22 @@
 
+body {
+    font-family: sans-serif;
+    background: #0e0e0e;
+    color: #fff;;
+}
+
+.Main_nav {
+    padding: 20px 0px 0px 20px;
+    position: fixed;
+}
+
+.sidebar_btn {
+    border: none;
+    font-size: 2em;
+    background: none;
+    color: #fff;
+}
+
+.Nav_container li {
+    text-decoration: none;
+}
