@@ -14,13 +14,20 @@ body {
 }
 
 .sidebar_btn {
-    border: none;
-    padding: 20px 0px 0px 20px;
-    font-size: 2em;
-    z-index: 1100;
-    position: fixed;
-    background: none;
-    color: #fff;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1100; /* Higher than sidebar */
+  border: none;
+  font-size: 2.5em;
+  background: none;
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.sidebar_btn.rotate {
+    transform: rotate(45deg);
 }
 
 .Nav_container {
