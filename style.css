@@ -6,12 +6,12 @@ body {
 }
 
 .Main_nav {
-    padding: 20px 0px 0px 20px;
     position: fixed;
 }
 
 .sidebar_btn {
     border: none;
+    padding: 20px 0px 0px 20px;
     font-size: 2em;
     background: none;
     color: #fff;
@@ -21,7 +21,6 @@ body {
     width: 250px;
     height: 100vh;
     background: #1a1a1a;
-    top: 0;
     z-index: 1000;
     transition: left 0.4s ease-in-out;
 }
@@ -29,4 +28,5 @@ body {
 .Nav_container ul {
     list-style: none;
     padding-right: 100px;
+    
 }
