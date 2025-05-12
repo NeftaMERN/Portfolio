@@ -17,6 +17,8 @@ body {
     border: none;
     padding: 20px 0px 0px 20px;
     font-size: 2em;
+    z-index: 1100;
+    position: fixed;
     background: none;
     color: #fff;
 }
@@ -27,6 +29,18 @@ body {
     background: #1a1a1a;
     z-index: 1000;
     transition: left 0.4s ease-in-out;
+    position: fixed;
+    top: 0;
+    left: -100%;
+}
+
+.rotate {
+  transform: rotate(45deg);
+  transition: transform 0.3s ease;
+}
+
+.Nav_container.open {
+    left: 0;
 }
 
 .Nav_container ul {
