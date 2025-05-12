@@ -83,3 +83,8 @@ body {
     text-decoration: none;
     color: #00ffe7;
 }
+
+.Nav_container ul li:hover {
+    transform: translateY(-3px);
+    transition: transform 0.3s ease;
+}
