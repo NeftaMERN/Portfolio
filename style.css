@@ -13,6 +13,10 @@ body {
     transform: rotate(45deg);
 }
 
+.sidebar_img_container {
+    padding: 20px 20px 0px 0px;
+}
+
 .sidebar_btn {
   position: fixed;
   top: 20px;
