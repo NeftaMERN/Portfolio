@@ -39,7 +39,7 @@ body {
     height: 100vh;
     background: #1a1a1a;
     z-index: 1000;
-    padding: 150px 0px 0px 0px;
+    padding: 90px 0px 0px 0px;
     transition: left 0.4s ease-in-out;
     position: fixed;
     top: 0;
