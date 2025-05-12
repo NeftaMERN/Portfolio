@@ -6,7 +6,8 @@ body {
 }
 
 .Main_nav {
-    position: fixed;
+    display: flex;
+    justify-content: end;
 }
 
 .Main_nav.open {
