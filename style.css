@@ -28,5 +28,9 @@ body {
 .Nav_container ul {
     list-style: none;
     padding-right: 100px;
-    
+}
+
+.Nav_container li {
+    padding: 15px 20px;
+    font-size: 20px;
 }
