@@ -23,6 +23,14 @@ body {
     border-radius: 50%;
 }
 
+.sidebar_icone_contaner {
+    padding: 0px 100px 0px 60px;
+}
+
+.icone_sidebar {
+    font-size: 30px;
+}
+
 .sidebar_btn {
   position: fixed;
   top: 20px;
