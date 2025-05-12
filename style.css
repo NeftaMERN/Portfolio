@@ -9,6 +9,10 @@ body {
     position: fixed;
 }
 
+.Main_nav.open {
+    transform: rotate(45deg);
+}
+
 .sidebar_btn {
     border: none;
     padding: 20px 0px 0px 20px;
@@ -32,5 +36,10 @@ body {
 
 .Nav_container li {
     padding: 15px 20px;
-    font-size: 20px;
+    font-size: 1.2rem;
+}
+
+.Nav_container a {
+    text-decoration: none;
+    color: #00ffe7;
 }
