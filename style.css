@@ -148,7 +148,6 @@ body {
 
 .text_content h1 {
   font-size: 2em;
-  
   margin: 0;
 }
 
@@ -164,6 +163,23 @@ body {
   font-weight: bold;
   color: #ffffff;           
   margin: 0;
+   white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #fff;
+  animation: 
+            typing 2s steps(30),
+            cursor .5s step-end infinite alternate;
+}
+
+/* Cursor blinking */
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 320px; }
+}
+
+@keyframes cursor {
+  50% { border-color: transparent; }
 }
 
 .custom-subtitle {
