@@ -254,6 +254,7 @@ body {
 
 .UI_form {
     display: flex;
+    gap: 150px;
 }
 
 .form {
