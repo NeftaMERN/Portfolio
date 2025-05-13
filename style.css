@@ -218,3 +218,17 @@ body {
     font-size: 1.2em;
     letter-spacing: 1px;
 }
+
+.main_under_about_container {
+    margin-top: 60px;
+}
+
+.UI_IMG {
+    display: flex;
+    gap: 20px;
+}
+
+.UI_IMG h1 {
+    color: #00ffe7;
+    margin-top: 0px;
+}
