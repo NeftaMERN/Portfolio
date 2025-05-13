@@ -148,7 +148,7 @@ body {
 
 .text_content h1 {
   font-size: 2em;
-  color: #00ffe7;
+  
   margin: 0;
 }
 
@@ -156,4 +156,25 @@ body {
   font-size: 1.2em;
   color: #ccc;
   margin: 5px 0 0;
+}
+
+.custom-heading {
+  font-size: 2.5rem; 
+  font-weight: bold;
+  color: #ffffff;           
+  margin: 0;
+}
+
+.custom-subtitle {
+  font-size: 1.25rem;       
+  color: #cccccc;           
+  margin-top: 8px;
+}
+
+.custom-heading span {
+  color: #00ffe7;
+}
+
+.custom-subtitle {
+  letter-spacing: 1px;
 }
