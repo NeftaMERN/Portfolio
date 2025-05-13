@@ -16,7 +16,6 @@ body {
 
 .sidebar_img_container {
     width: 270px;
-    height: 240px;
     padding: 0px 100px 0px 40px;
     margin: 16px 0px;
 }
@@ -36,7 +35,7 @@ body {
 }
 
 .sidebar_icone_contaner {
-    padding: 0px 100px 0px 60px;
+    padding: 0px 100px 0px 75px;
 }
 
 .icone_sidebar {
