@@ -127,6 +127,10 @@ body {
 
 */
 
+.main_body_container {
+    height: 500vh;
+}
+
 .main_img_container {
     margin: 150px 0px 0px 450px;
 }
