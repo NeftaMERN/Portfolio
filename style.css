@@ -129,7 +129,12 @@ body {
 
 .main_img_container {
     margin: 150px 0px 0px 450px;
+}
+
+.img_main {
     display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 .img_main img {
