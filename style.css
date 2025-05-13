@@ -24,6 +24,14 @@ body {
     border-radius: 50%;
 }
 
+.sidebar_name {
+    width: 250px;
+}
+
+.name_img_sidebar {
+    font-size: 24px;
+}
+
 .sidebar_icone_contaner {
     padding: 0px 100px 0px 60px;
 }
@@ -50,7 +58,7 @@ body {
 }
 
 .Nav_container {
-    width: 250px;
+    width: 300px;
     height: 100vh;
     background: #1a1a1a;
     z-index: 1000;
