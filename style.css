@@ -15,6 +15,8 @@ body {
 }
 
 .sidebar_img_container {
+    width: 270px;
+    height: 240px;
     padding: 0px 100px 0px 40px;
     margin: 16px 0px;
 }
