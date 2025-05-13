@@ -237,3 +237,9 @@ body {
     color: #00ffe7;
     margin-top: 0px;
 }
+
+.UI_IMG p {
+    font-size: 16px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
