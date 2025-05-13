@@ -195,3 +195,16 @@ body {
 .custom-subtitle {
   letter-spacing: 1px;
 }
+/* 
+
+
+
+*/
+
+.main_about_container {
+    margin-top: 200px;
+}
+
+.about_container {
+    border-bottom: 3px solid #00ffe7;
+}
