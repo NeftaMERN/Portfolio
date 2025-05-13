@@ -120,3 +120,18 @@ body {
     transform: translateY(-3px);
     transition: transform 0.3s ease;
 }
+
+/* 
+
+
+
+*/
+
+.main_img_container {
+    margin: 150px 0px 0px 450px;
+    display: flex;
+}
+
+.img_main img {
+    border-radius: 50%;
+}
