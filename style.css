@@ -163,7 +163,7 @@ body {
   font-weight: bold;
   color: #ffffff;           
   margin: 0;
-   white-space: nowrap;
+  white-space: nowrap;
   overflow: hidden;
   border-right: 2px solid #fff;
   animation: 
@@ -207,4 +207,10 @@ body {
 
 .about_container {
     border-bottom: 3px solid #00ffe7;
+}
+
+.paragraph_about_container {
+    margin-top: 50px;
+    font-size: 1.2em;
+    letter-spacing: 1px;
 }
