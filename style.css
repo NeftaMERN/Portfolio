@@ -140,3 +140,20 @@ body {
 .img_main img {
     border-radius: 50%;
 }
+
+.text_content {
+  display: flex;
+  flex-direction: column;
+}
+
+.text_content h1 {
+  font-size: 2em;
+  color: #00ffe7;
+  margin: 0;
+}
+
+.text_content p {
+  font-size: 1.2em;
+  color: #ccc;
+  margin: 5px 0 0;
+}
