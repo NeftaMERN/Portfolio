@@ -319,3 +319,7 @@ body {
     margin: 50px;
     padding-top: 100px;
 }
+
+.project_title {
+    border-bottom:2px solid #00ffe7;
+}
