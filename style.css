@@ -261,3 +261,12 @@ body {
     display: flex;
     flex-direction: column;
 }
+/* 
+
+
+
+*/
+
+.certificate_body_container {
+    margin-top: 200px;
+}
