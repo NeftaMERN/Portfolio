@@ -369,3 +369,12 @@ body {
     font-weight: bold;
     text-align: center;
 }
+
+.project_card:hover img {
+    transform: scale(1.05);
+}
+
+.project_card:hover .overlay {
+    opacity: 1;
+    
+}
