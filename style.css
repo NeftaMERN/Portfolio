@@ -459,3 +459,7 @@ body {
     font-weight: bold;
     text-align: center;
 }
+
+.third_project:hover img {
+    transform: scale(1.05);
+}
