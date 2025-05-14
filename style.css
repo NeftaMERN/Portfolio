@@ -376,7 +376,6 @@ body {
 
 .project_card:hover .overlay {
     opacity: 1;
-
 }
 
 .second_project_card {
@@ -418,4 +417,8 @@ body {
 
 .second_project_card:hover img {
     transform: scale(1.05);
+}
+
+.second_project_card:hover .overlayy {
+    opacity: 1;
 }
