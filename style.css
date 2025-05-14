@@ -332,6 +332,11 @@ body {
 }
 
 .project_card {
-    padding: 100px;
-    
+    padding: 50px;
+
+}
+
+.project_card img {
+    width: 40%;
+    height: auto;
 }
