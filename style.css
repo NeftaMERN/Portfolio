@@ -301,14 +301,21 @@ body {
     border-radius: 10px;
     cursor: pointer;
 }
-/* 
-
-
-*/
 
 .summary_container {
     margin: 50px;
     text-align: center;
     font-family: serif;
     border: 2px solid #00ffe7;
+}
+
+/*
+
+
+
+*/
+
+.project_main_container {
+    margin: 50px;
+    padding-top: 100px;
 }
