@@ -422,3 +422,15 @@ body {
 .second_project_card:hover .overlayy {
     opacity: 1;
 }
+
+.third_project {
+    margin: 50px 0px 0px 60px;
+    padding: 50px;
+    position: relative;
+    width: 200px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 255, 231, 0.2);
+}
