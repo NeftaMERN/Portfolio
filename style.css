@@ -270,3 +270,14 @@ body {
 .certificate_body_container {
     margin-top: 200px;
 }
+
+.certificate_titel {
+    border-bottom: 3px solid #00ffe7;
+}
+
+.certificate_container {
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+    background-color: #cccccc11;
+}
