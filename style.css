@@ -323,3 +323,10 @@ body {
 .project_title {
     border-bottom:2px solid #00ffe7;
 }
+
+.project_container {
+    margin-top: 50px;
+    background-color: #cccccc11;
+    width: 100%;
+    height: 400px;
+}
