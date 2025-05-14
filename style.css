@@ -290,6 +290,7 @@ body {
 
 .certificate_heder_container h6 {
     font-size: 16px;
+    letter-spacing: 1px;
 }
 
 .certificate_button button {
@@ -298,4 +299,5 @@ body {
     background-color: #00ffe7;
     font-size: 16px;
     border-radius: 10px;
+    cursor: pointer;
 }
