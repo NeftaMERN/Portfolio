@@ -513,10 +513,15 @@ body {
     transition: color 0.3s ease;
 }
 
+.contact_links a i {
+    margin-right: 10px;
+}
+
+
 .contact_links li {
     margin: 10px 0;
     padding: 10px 20px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .contact_links a:hover {
