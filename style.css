@@ -16,22 +16,22 @@ body {
 
 .sidebar_img_container {
    text-align: center;
-      margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .img_sidebar img {
     height: 15vh;
-      width: 15vh;
-      border-radius: 50%;
-      object-fit: cover;
-      border: 3px solid #00ffe7;
+    width: 15vh;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #00ffe7;
 }
 
 .sidebar_name p {
     font-size: 22px;
-      margin: 10px 0;
-      font-weight: bold;
-      color: #00ffe7;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #00ffe7;
 
 }
 
@@ -45,10 +45,10 @@ body {
 }
 
 .icone_sidebar a {
-     font-size: 24px;
-      margin: 0 10px;
-      color: #fff;
-      transition: color 0.3s ease;
+    font-size: 24px;
+    margin: 0 10px; 
+    color: #fff;
+    transition: color 0.3s ease;
 }
 
 .icone_sidebar a:hover {
@@ -73,16 +73,16 @@ body {
 }
 
 .Nav_container {
-     width: 300px;
-      height: 100vh;
-      background: #1a1a1a;
-      position: fixed;
-      top: 0;
-      left: -100%;
-      z-index: 1000;
-      padding-top: 90px;
-      transition: left 0.4s ease-in-out;
-      overflow-y: auto;
+    width: 300px;
+    height: 100vh;
+    background: #1a1a1a;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    z-index: 1000;
+    padding-top: 90px;
+    transition: left 0.4s ease-in-out;
+    overflow-y: auto;
 }
 
 .rotate {
@@ -96,15 +96,15 @@ body {
 
 .Nav_container ul {
     list-style: none;
-      padding: 0;
-      margin-top: 30px;
-      text-align: center;
+    padding: 0;
+    margin-top: 30px;
+    text-align: center;
 }
 
 .Nav_container li {
     padding: 15px 0;
-      font-size: 1.2rem;
-      transition: transform 0.3s ease;
+    font-size: 1.2rem;
+    transition: transform 0.3s ease;
 }
 
 .Nav_container a {
