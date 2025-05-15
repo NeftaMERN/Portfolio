@@ -517,3 +517,14 @@ body {
     margin: 10px 0;
     font-size: 18px;
 }
+
+.contact_links a:hover {
+    transform: translateY(-3PX);
+    transition: transform 0.3s ease;
+    color: #00ffe7;
+}
+
+.contact_links li:hover {
+    transform: translateY(-3PX);
+    transition: transform 0.3s ease;
+}
