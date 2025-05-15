@@ -179,7 +179,7 @@ body {
 }
 
 .custom-heading {
-  width: 320px;
+  width: 290px;
   font-size: 2.5rem; 
   font-weight: bold;
   color: #ffffff;           
@@ -196,7 +196,7 @@ body {
 
 @keyframes typing {
     from { width: 0; }
-    to { width: 320px; }
+    to { width: 290px; }
 }
 
 @keyframes cursor {
