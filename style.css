@@ -486,3 +486,12 @@ body {
 .hader_contaner {
     border-bottom: 3px solid #00ffe7;
 }
+
+.contact_info_container {
+    background-color: #cccccc11;
+    margin-top: 40px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 231, 0.2);
+    text-align: center;
+}
