@@ -495,3 +495,8 @@ body {
     box-shadow: 0 0 10px rgba(0, 255, 231, 0.2);
     text-align: center;
 }
+
+.contact_info_container h2 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
