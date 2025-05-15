@@ -487,6 +487,10 @@ body {
     border-bottom: 3px solid #00ffe7;
 }
 
+.main_map_container {
+    margin-top: 50px;
+}
+
 .contact_info_container {
     background-color: #cccccc11;
     margin-top: 40px;
