@@ -51,8 +51,8 @@ body {
     transition: color 0.3s ease;
 }
 
-.icone_sidebar a:hover {
-    
+.icone_sidebar a i:hover {
+    transform: translateY(-3PX);
 }
 
 .sidebar_btn {
