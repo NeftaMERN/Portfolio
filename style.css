@@ -352,6 +352,7 @@ body {
     font-family: Arial, sans-serif;
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
     gap: 30px;
     padding: 20px;
 }
