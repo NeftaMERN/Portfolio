@@ -340,6 +340,7 @@ body {
 .project_main_container {
     margin: 50px;
     padding-top: 100px;
+    display: flex;
 }
 
 .project_title {
