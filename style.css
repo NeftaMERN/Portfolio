@@ -360,10 +360,10 @@ body {
 
 .project_card {
     margin: 50px 0px 0px 60px;
-    padding: 50px;
+    padding: 20px;
     position: relative;
-    width: 200px;
-    height: 100px;
+    width: 250px;
+    height: 150px;
     overflow: hidden;
     border-radius: 12px;
     cursor: pointer;
@@ -405,10 +405,10 @@ body {
 
 .second_project_card {
     margin: 50px 0px 0px 60px;
-    padding: 50px;
+    padding: 20px;
     position: relative;
-    width: 200px;
-    height: 100px;
+    width: 250px;
+    height: 150px;
     overflow: hidden;
     border-radius: 12px;
     cursor: pointer;
@@ -450,10 +450,10 @@ body {
 
 .third_project {
     margin: 50px 0px 0px 60px;
-    padding: 50px;
+    padding: 20px;
     position: relative;
-    width: 200px;
-    height: 100px;
+    width: 250px;
+    height: 150px;
     overflow: hidden;
     border-radius: 12px;
     cursor: pointer;
