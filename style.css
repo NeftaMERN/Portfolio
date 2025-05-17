@@ -5,6 +5,11 @@ body {
     color: #fff;;
 }
 
+.All_container {
+    padding: 20px;
+    width: 100%;
+}
+
 .Main_nav {
     display: flex;
     justify-content: end;
