@@ -498,6 +498,7 @@ body {
 .Contact_main_container {
     margin: 50px;
     padding-top: 100px;
+    width: 95%;
 }
 
 .hader_contaner {
@@ -506,6 +507,10 @@ body {
 
 .main_map_container {
     margin-top: 50px;
+}
+
+.map_container p  iframe {
+    width: 95%;
 }
 
 .contact_info_container {
