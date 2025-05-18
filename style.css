@@ -282,6 +282,67 @@ html {
     display: flex;
     flex-direction: column;
 }
+
+@media (max-width: 985px) {
+  .main_about_container {
+    margin-top: 100px;
+    padding: 0 15px;
+  }
+
+  .paragraph_about_container {
+    font-size: 1em;
+    letter-spacing: 0.5px;
+    margin-top: 30px;
+  }
+
+  .UI_IMG {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .UI_IMG img {
+    width: 100%;
+    height: auto;
+    max-width: 350px;
+    border-radius: 10px;
+  }
+
+  .UI_container {
+    width: 100%;
+    text-align: center;
+  }
+
+  .UI_container h1 {
+    font-size: 22px;
+    padding: 0 10px;
+  }
+
+  .UI_container p {
+    font-size: 14px;
+    padding: 0 10px;
+    line-height: 1.6;
+  }
+
+  .UI_form {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+  }
+
+  .form, .second_form {
+    width: 100%;
+    max-width: 300px;
+    text-align: left;
+  }
+
+  .form p, .second_form p {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+}
+
 /* 
 
 
