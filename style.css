@@ -20,7 +20,7 @@ html {
 
 .sidebar_img_container {
    text-align: center;
-    margin-bottom: 20px;
+   margin-bottom: 20px;
 }
 
 .img_sidebar img {
@@ -61,15 +61,16 @@ html {
 
 .sidebar_btn {
    position: fixed;
-    top: 20px;
-    left: 20px;
-    z-index: 1100;
-    border: none;
-    font-size: 2.5em;
-    background: none;
-    color: #00ffe7;
-    cursor: pointer;
-    transition: transform 0.3s ease;
+   display: none;
+   top: 20px;
+   left: 20px;
+   z-index: 1100;
+   border: none;
+   font-size: 2.5em;
+   background: none;
+   color: #00ffe7;
+   cursor: pointer;
+   transition: transform 0.3s ease;
 }
 
 .sidebar_btn.rotate {
@@ -78,7 +79,7 @@ html {
 
 .Nav_container {
     width: 300px;
-    height: 100vh;
+    height: 500vh;
     background: #1a1a1a;
     position: fixed;
     top: 0;
@@ -141,6 +142,91 @@ html {
     transform: translateY(-3px);
     transition: transform 0.3s ease;
 }
+
+@media (max-width: 1024px) {
+  .Main_nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .right_nav_btn {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+  }
+
+  .right_btn {
+    font-size: 1.5rem;
+    display: flex;
+    gap: 15px;
+  }
+
+  .right_btn i {
+    padding: 8px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Nav_container {
+    width: 100%;
+    padding-top: 80px;
+  }
+
+  .sidebar_btn {
+    font-size: 2rem;
+    top: 15px;
+    left: 15px;
+  }
+
+  .img_sidebar img {
+    height: 12vh;
+    width: 12vh;
+  }
+
+  .sidebar_name p {
+    font-size: 18px;
+  }
+
+  .icone_sidebar a {
+    font-size: 20px;
+  }
+
+  .Nav_container ul li {
+    font-size: 1rem;
+    padding: 12px 0;
+  }
+
+  .right_nav_btn {
+    position: static;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .right_btn {
+    justify-content: center;
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .right_btn {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .sidebar_btn {
+    font-size: 1.8rem;
+  }
+
+  .img_sidebar img {
+    height: 10vh;
+    width: 10vh;
+  }
+}
+
 
 /* 
 
