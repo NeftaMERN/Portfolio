@@ -290,6 +290,7 @@ html {
 
 .certificate_body_container {
     margin-top: 200px;
+    width: 100%;
 }
 
 .certificate_titel {
@@ -305,6 +306,7 @@ html {
 
 .certificate_heder_container {
     padding-top: 30px;
+    width: 100%;
     text-align: center;
     font-size: 32px;
 }
@@ -315,6 +317,7 @@ html {
 }
 
 .certificate_button button {
+    max-width: 100%;
     width: 200px;
     height: 55px;
     background-color: #00ffe7;
@@ -330,6 +333,7 @@ html {
 
 .summary_container {
     margin: 50px;
+    max-width: 100%;
     text-align: center;
     font-family: serif;
     border: 2px solid #00ffe7;
