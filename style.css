@@ -220,6 +220,37 @@ html {
 .custom-subtitle {
   letter-spacing: 1px;
 }
+
+@media (max-width: 985px) {
+  .img_main {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .img_main img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+
+  .custom-heading {
+    width: 100%;
+    font-size: 1.8rem;
+    white-space: normal;
+    overflow: visible;
+    border-right: none;
+    animation: none;
+  }
+
+  .custom-subtitle {
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+  }
+}
+
 /* 
 
 
